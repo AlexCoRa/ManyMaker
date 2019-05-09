@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Imágenes de productos')
+@section('title', 'Imágenes de autos')
 
 @section('body-class', 'product-page')
 
@@ -11,13 +11,13 @@
 <div class="main main-raised">
     <div class="container">
         <div class="section text-center">
-            <h2 class="title">Imágenes del pastel "{{ $product->name }}"</h2>
+            <h2 class="title">Imágenes del auto "{{ $product->name }}"</h2>
 
             <form method="post" action="" enctype="multipart/form-data">
                 {{ csrf_field() }}
                 <input type="file" name="photo" required>    
                 <button type="submit" class="btn btn-primary btn-round">Subir nueva imagen</button>
-                <a href="{{ url('/admin/products') }}" class="btn btn-default btn-round">Volver al listado de pasteles</a>
+                <a href="{{ url('/admin/products') }}" class="btn btn-default btn-round">Volver al catálogo de autos</a>
             </form>
 
             <hr>

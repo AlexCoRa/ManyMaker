@@ -1,21 +1,21 @@
 @extends('layouts.app')
 
-@section('title', 'Listado de pasteles')
+@section('title', 'Catálogo de Autos')
 
 @section('body-class', 'product-page')
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/portada.jpg') }}');">
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_auto.jpg') }}');">
 </div>
 
 <div class="main main-raised">
     <div class="container">
         <div class="section text-center">
-            <h2 class="title">Listado de pasteles</h2>
+            <h2 class="title">Catálogo de autos deportivos</h2>
 
             <div class="team">
                 <div class="row">
-                    <a href="{{ url('/admin/products/create') }}" class="btn btn-primary btn-round">Nuevo pastel</a>
+                    <a href="{{ url('/admin/products/create') }}" class="btn btn-primary btn-round">Nuevo auto</a>
 
                     <table class="table">
                         <thead>

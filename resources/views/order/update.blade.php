@@ -3,7 +3,7 @@
 @section('body-class', 'product-page')
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/portada.jpg') }}');">
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_auto.jpg') }}');">
 </div>
 
 <div class="main main-raised">

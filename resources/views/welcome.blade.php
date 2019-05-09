@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bienvenido a Cake Custom')
+@section('title', 'Bienvenido a DeportCarMex')
 
 @section('body-class', 'landing-page')
 
@@ -24,13 +24,15 @@
 @endsection
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/pastel_rg.jpg') }}');">
+<div class="header header-filter" style="background-image: url('{{ asset('img/carro_portada.jpg') }}');">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Toda una explosión de Sabor.</h1>
-                <h4>Generar unión y felicidad en las familias, elaborando pasteles y postres de alta calidad, conservando siempre el sabor tradicional que satisface a nuestros clientes, buscando al mismo tiempo ser una empresa eficiente que genere beneficios a sus integrantes, accionistas y a la sociedad.</h4>
-                 <a href="https://www.youtube.com/watch?v=DFh_xqX-gVM&feature=youtu.be" class="btn btn-danger btn-raised btn-lg">
+                <h1 class="title">Velocidad es la que necesitas.</h1>
+                <h4>¿Quieres un carro deportivo y facil de encontrar?
+                    Compra El auto de tus sueños en el mejor lugar, seguro y rápido, deja esa carcacha de carro que tienes en tu garage y aqui encontraras uno mejor, levantaras miradas de toda la gente.
+                .</h4>
+                 <a href="https://www.youtube.com/watch?v=BMKwueexahI" class="btn btn-danger btn-raised btn-lg">
             <i class="fa fa-play"></i> Conocenos
                   </a>
                 {{--<br />--}}
@@ -48,7 +50,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="title">¿Quieres saber algo de nosotros?</h2>
-                    <h5 class="description">Somos una empresa líder en pasteleria, reconocida a nivel nacional por la calidad en la elaboración de sus productos, sabor inconfundible y excelente servicio.</h5>
+                    <h5 class="description">Somos una empresa Mexicana que se encarga de la compra y venta de autos deportivos, nosotros los conseguimos y ustedes los compran.</h5>
                 </div>
             </div>
 
@@ -69,7 +71,7 @@
                                 <i class="material-icons">verified_user</i>
                             </div>
                             <h4 class="info-title">Pago seguro</h4>
-                            <p>Todo pedido que realices será confirmado a través de una llamada. Si no confías en los pagos en línea puedes pagar contra entrega el valor acordado.</p>
+                            <p>Todo pedido que realices será confirmado a través de una llamada y enviaremos tu auto a domicilio.</p>
                         </div>
                     </div>
                     <div class="col-md-4">
@@ -86,7 +88,7 @@
         </div>
 
         <div class="section text-center">
-            <h2 class="title">Nuestros pasteles</h2>
+            <h2 class="title">Autos Deportivos</h2>
 
            <!-- <form class="form-inline" method="get" action="{{ url('/search') }}">
                 <input type="text" placeholder="¿Qué producto buscas?" class="form-control" name="query" id="search">
@@ -114,7 +116,7 @@
         </div>
 
         <div class="section text-center">
-    <h2 class="title">Nuestro equipo de desarrollo</h2>
+    <h2 class="title">Nuestro equipo de venta</h2>
 
     <div class="team">
         <div class="row">
@@ -122,9 +124,9 @@
                 <div class="team-player">
                     <img src="{{ asset('img/diego.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
                     <h4 class="title">Diego Al <br />
-                        <small class="text-muted">Estudiante de Ingenieria</small>
+                        <small class="text-muted">Conductor profesional de F1</small>
                     </h4>
-                    <p class="description">Hola me llamo Diego, soy estudiante de ingenieria en sistemas computacionales, actualmente cursando el 7mo semestre de carrera, tengo 22 años, administrador de la base de datos y estoy dispuesto a pasar la materia de IS con este proyecto.</p>
+                    <p class="description">Hola, me llamo Diego, spy conductor profesional de F1 me apasionan los deportes de motor.</p>
                     <a href="https://twitter.com/diegoal1811" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.instagram.com/diegoal1811/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/diegoal1811?jazoest=2651001224855685755756989565186651148551519052113100896557105845612210870908281907511280507152668397103586510012052458297571116754771188798116101726855775711072491081031078712281102659957121105754587768511511198119" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
@@ -134,9 +136,9 @@
                 <div class="team-player">
                     <img src="{{ asset('img/alex.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
                     <h4 class="title">Alex CoRa<br />
-                        <small class="text-muted">Estudiante de Ingenieria</small>
+                        <small class="text-muted">Vendedor</small>
                     </h4>
-                    <p class="description">Hola, me llamo Alejandro, soy estudiante de ingenieria en sistemas computacionales, actualmente cursando el 7mo semestre de carrera, tengo 21 años, diseñador web, actualmente administrador de Cake Custom y mi proposito seria poder pasar la materia de IS con esta aplicacion web.</p>
+                    <p class="description">Hola, me llamo Alejandro, me encargo de la venta de autos de tus sueños, si tienes alguda pregunta a la hora de comprar, no dudes en contactarme.</p>
                     <a href="https://twitter.com/search?q=%40alex50667600" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
                     <a href="https://www.instagram.com/cora.alex/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/alex.contrerasaguilar" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
@@ -146,9 +148,9 @@
                 <div class="team-player">
                     <img src="{{ asset('img/kike.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
                     <h4 class="title">Luis Enrique<br />
-                        <small class="text-muted">Estudiante de Ingenieria</small>
+                        <small class="text-muted">Conductor profesional de autos deportivos</small>
                     </h4>
-                    <p class="description">Hola, me llamo Luis Enrique, soy estudiante de ingenieria en sistemas computacionales, actualmente cursando el 7mo semestre de carrera, tengo 21 años, soy tambien administrador de la base de datos y espero poder pasar la materia de IS con este proyecto. </p>
+                    <p class="description">Hola me llamo Luis Enrique, soy un conductor profesional de autos deportivos y mi pasión empezó cuando compré mi primer auto y espero que tambien tengan la misma pasión al comprar en nuestro sitio. </p>
                     <a href="https://www.instagram.com/luisjaimes33/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
                     <a href="https://www.facebook.com/kike.jaimeslevario?jazoest=2651001224855685755756989565186651148551519052113100896557105845612210870908281907511280507152668397103586510012052458297571116754771188798116101726855775711072491081031078712281102659957121105754587768511511198119" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
                 </div><!--kike-->
@@ -161,7 +163,7 @@
          <div class="row">
             <div class="col-md-4">
                  <div class="team-player">
-                    <img src="{{ asset('img/cake custom.jpg') }}" alt="Thumbnail Image">
+                    <img src="{{ asset('img/carro_logo.jpg') }}" alt="Thumbnail Image">
                  </div>
                     </div>
                          <div class="col-md-4">
@@ -171,7 +173,7 @@
                          </div>
              <div class="col-md-4">
                      <div class="team-player">
-                        <img src="{{ asset('img/cake custom.jpg') }}" alt="Thumbnail Image">
+                        <img src="{{ asset('img/carro_logo.jpg') }}" alt="Thumbnail Image">
                      </div>
                  </div>
             </div>

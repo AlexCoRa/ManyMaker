@@ -31,7 +31,7 @@
 @endsection
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/portada.jpg') }}');"></div>
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_auto.jpg') }}');"></div>
 
 <div class="main main-raised">
     <div class="profile-content">
@@ -87,7 +87,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Seleccione la cantidad que desea agregar</h4>
+        <h4 class="modal-title" id="myModalLabel">Seleccione la cantidad de autos</h4>
       </div>
       <form method="post" action="{{ url('/cart') }}">
         {{ csrf_field() }}

@@ -27,7 +27,7 @@
 @endsection
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/pastel_is.jpg') }}');"></div>
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_auto.jpg') }}');"></div>
 
 <div class="main main-raised">
     <div class="profile-content">

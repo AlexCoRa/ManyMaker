@@ -25,7 +25,7 @@
             {{--</ul>--}}
         </nav>
         <div class="copyright pull-right">
-            &copy; 2018, made with <i class="fa fa-heart heart"></i> by Cake Custom
+            &copy; 2019, made with <i class="fa fa-heart heart"></i> by WAD2
         </div>
     </div>
 </footer>

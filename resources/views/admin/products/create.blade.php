@@ -3,14 +3,14 @@
 @section('body-class', 'product-page')
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/portada.jpg') }}');">
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_auto.jpg') }}');">
 </div>
 
 <div class="main main-raised">
     <div class="container">
 
         <div class="section">
-            <h2 class="title text-center">Registrar nuevo pastel</h2>
+            <h2 class="title text-center">Registrar nuevo auto</h2>
 
             @if ($errors->any())
                 <div class="alert alert-danger">
@@ -28,14 +28,14 @@
                 <div class="row">
                     <div class="col-sm-6">
                         <div class="form-group label-floating">
-                            <label class="control-label">Nombre del pastel</label>
+                            <label class="control-label">Nombre del auto</label>
                             <input type="text" class="form-control" name="name" value="{{ old('name') }}">
                         </div>
                     </div>
 
                     <div class="col-sm-6">
                         <div class="form-group label-floating">
-                            <label class="control-label">Precio del producto</label>
+                            <label class="control-label">Precio del auto</label>
                             <input type="number" class="form-control" name="price" value="{{ old('price') }}">
                         </div>
                     </div>
@@ -51,7 +51,7 @@
 
                     <div class="col-sm-6">
                         <div class="form-group label-floating">
-                            <label class="control-label">Categoría del producto</label>
+                            <label class="control-label">Categoría del auto</label>
                             <select class="form-control" name="category_id">
                                 <option value="0">General</option>
                                 @foreach ($categories as $category)
