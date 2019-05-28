@@ -6,7 +6,7 @@
     <link rel="icon" type="image/png" href="../assets/img/favicon.png">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-    <title>@yield('title', 'AutoMotive')</title>
+    <title>@yield('title', 'CellphoneStore')</title>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{{ url('/') }}">AutoMotive</a>
+                <a class="navbar-brand" href="{{ url('/') }}">CellphoneStore</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navigation-example">
@@ -60,7 +60,7 @@
                                     <a href="{{ url('/admin/categories') }}">Gestionar categorías</a>
                                 </li>
                                 <li>
-                                    <a href="{{ url('/admin/products') }}">Gestionar autos</a>
+                                    <a href="{{ url('/admin/products') }}">Gestionar Smarphones</a>
                                 </li>
                                     
                                 

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Catálogo de Autos')
+@section('title', 'Catálogo de Smartphones usados')
 
 @section('body-class', 'product-page')
 
@@ -11,11 +11,11 @@
 <div class="main main-raised">
     <div class="container">
         <div class="section text-center">
-            <h2 class="title">Catálogo de autos deportivos</h2>
+            <h2 class="title">Catálogo de Smartphones usados</h2>
 
             <div class="team">
                 <div class="row">
-                    <a href="{{ url('/admin/products/create') }}" class="btn btn-primary btn-round">Nuevo auto</a>
+                    <a href="{{ url('/admin/products/create') }}" class="btn btn-primary btn-round">Agregar Smartphone</a>
 
                     <table class="table">
                         <thead>

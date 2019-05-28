@@ -18,10 +18,10 @@ class CartController extends Controller
     	$cart->order_date = Carbon::now();
     	$cart->save(); // UPDATE
 
-    	$admins = User::where('admin', true)->get();
-    	Mail::to($admins)->send(new NewOrder($client, $cart));
+    	//$admins = User::where('admin', true)->get();
+    	//Mail::to($admins)->send(new NewOrder($client, $cart));
 
-    	$notification = 'Tu pedido se ha registrado correctamente. Te contactaremos pronto vía telefónica, que tengas un buen dia :)!';
+    	$notification = 'Tu pedido se ha registrado correctamente. Te contactaremos pronto vía email, que tengas un buen dia :)!';
     	return back()->with(compact('notification'));
     }
     public function edit(){

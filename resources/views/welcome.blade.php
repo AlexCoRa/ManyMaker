@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Bienvenido a DeportCarMex')
+@section('title', 'Bienvenido a CellphoneStore')
 
 @section('body-class', 'landing-page')
 
@@ -24,17 +24,17 @@
 @endsection
 
 @section('content')
-<div class="header header-filter" style="background-image: url('{{ asset('img/carro_portada.jpg') }}');">
+<div class="header header-filter" style="background-image: url('{{ asset('img/portada_celular.jpg') }}');">
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="title">Velocidad es la que necesitas.</h1>
-                <h4>¿Quieres un carro deportivo y facil de encontrar?
-                    Compra El auto de tus sueños en el mejor lugar, seguro y rápido, deja esa carcacha de carro que tienes en tu garage y aqui encontraras uno mejor, levantaras miradas de toda la gente.
-                .</h4>
-                 <a href="https://www.youtube.com/watch?v=BMKwueexahI" class="btn btn-danger btn-raised btn-lg">
-            <i class="fa fa-play"></i> Conocenos
-                  </a>
+                <h1 class="title">Bueno, Bonito y Barato.</h1>
+                <h4>¿Buscas un buen Smartphone a buen precio?
+                    Compra y aparta aqui mismo celulares de tu agrado, tenemos desde gama baja hasta gama premium a precios muy accesibles, si quieres calidad y no cantidad, estas en el sitio correcto.
+                </h4>
+                <div class="team-player">
+                                    <img src="{{ asset('img/logo_c.jpg') }}" alt="Thumbnail Image">
+                             </div>
                 {{--<br />--}}
                 {{--<a href="#" class="btn btn-danger btn-raised btn-lg">--}}
                     {{--<i class="fa fa-play"></i> ¿Cómo funciona?--}}
@@ -50,7 +50,7 @@
             <div class="row">
                 <div class="col-md-8 col-md-offset-2">
                     <h2 class="title">¿Quieres saber algo de nosotros?</h2>
-                    <h5 class="description">Somos una empresa Mexicana que se encarga de la compra y venta de autos deportivos, nosotros los conseguimos y ustedes los compran.</h5>
+                    <h5 class="description">Somos una micro-empresa dedicada a la compra-venta de celulares usados en la plaza de computacion(Toluca) ofrecemos buenos equipos a nuestros clientes con 6 meses de garantia.</h5>
                 </div>
             </div>
 
@@ -88,7 +88,7 @@
         </div>
 
         <div class="section text-center">
-            <h2 class="title">Autos Deportivos</h2>
+            <h2 class="title">Smarphones</h2>
 
            <!-- <form class="form-inline" method="get" action="{{ url('/search') }}">
                 <input type="text" placeholder="¿Qué producto buscas?" class="form-control" name="query" id="search">
@@ -116,66 +116,22 @@
         </div>
 
         <div class="section text-center">
-    <h2 class="title">Nuestro equipo de venta</h2>
-
-    <div class="team">
-        <div class="row">
-            <div class="col-md-4">
-                <div class="team-player">
-                    <img src="{{ asset('img/diego.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
-                    <h4 class="title">Diego Al <br />
-                        <small class="text-muted">Conductor profesional de F1</small>
-                    </h4>
-                    <p class="description">Hola, me llamo Diego, spy conductor profesional de F1 me apasionan los deportes de motor.</p>
-                    <a href="https://twitter.com/diegoal1811" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/diegoal1811/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/diegoal1811?jazoest=2651001224855685755756989565186651148551519052113100896557105845612210870908281907511280507152668397103586510012052458297571116754771188798116101726855775711072491081031078712281102659957121105754587768511511198119" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-                </div><!--diego-->
-            </div>
-            <div class="col-md-4">
-                <div class="team-player">
-                    <img src="{{ asset('img/alex.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
-                    <h4 class="title">Alex CoRa<br />
-                        <small class="text-muted">Vendedor</small>
-                    </h4>
-                    <p class="description">Hola, me llamo Alejandro, me encargo de la venta de autos de tus sueños, si tienes alguda pregunta a la hora de comprar, no dudes en contactarme.</p>
-                    <a href="https://twitter.com/search?q=%40alex50667600" class="btn btn-simple btn-just-icon"><i class="fa fa-twitter"></i></a>
-                    <a href="https://www.instagram.com/cora.alex/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/alex.contrerasaguilar" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-                </div><!--alex-->
-            </div>
-            <div class="col-md-4">
-                <div class="team-player">
-                    <img src="{{ asset('img/kike.jpg') }}" alt="Thumbnail Image" class="img-raised img-circle">
-                    <h4 class="title">Luis Enrique<br />
-                        <small class="text-muted">Conductor profesional de autos deportivos</small>
-                    </h4>
-                    <p class="description">Hola me llamo Luis Enrique, soy un conductor profesional de autos deportivos y mi pasión empezó cuando compré mi primer auto y espero que tambien tengan la misma pasión al comprar en nuestro sitio. </p>
-                    <a href="https://www.instagram.com/luisjaimes33/" class="btn btn-simple btn-just-icon"><i class="fa fa-instagram"></i></a>
-                    <a href="https://www.facebook.com/kike.jaimeslevario?jazoest=2651001224855685755756989565186651148551519052113100896557105845612210870908281907511280507152668397103586510012052458297571116754771188798116101726855775711072491081031078712281102659957121105754587768511511198119" class="btn btn-simple btn-just-icon btn-default"><i class="fa fa-facebook-square"></i></a>
-                </div><!--kike-->
-            </div>
-        </div>
-    </div>
+    
 </div>
     <div class="col-md-8 col-md-offset-2">
                  <div class="team">
          <div class="row">
             <div class="col-md-4">
                  <div class="team-player">
-                    <img src="{{ asset('img/carro_logo.jpg') }}" alt="Thumbnail Image">
+                    
                  </div>
                     </div>
                          <div class="col-md-4">
                              <div class="team-player">
-                                    <img src="{{ asset('img/empresa.jpg') }}" alt="Thumbnail Image">
+                                    <img src="{{ asset('img/logoxd.jpg') }}" alt="Thumbnail Image">
                              </div>
                          </div>
-             <div class="col-md-4">
-                     <div class="team-player">
-                        <img src="{{ asset('img/carro_logo.jpg') }}" alt="Thumbnail Image">
-                     </div>
-                 </div>
+             
             </div>
          </div>
     </div>

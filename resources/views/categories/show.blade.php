@@ -87,7 +87,7 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h4 class="modal-title" id="myModalLabel">Seleccione la cantidad de autos</h4>
+        <h4 class="modal-title" id="myModalLabel">Seleccione la cantidad del equipo</h4>
       </div>
       <form method="post" action="{{ url('/cart') }}">
         {{ csrf_field() }}
