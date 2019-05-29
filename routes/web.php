@@ -37,4 +37,7 @@ Route::middleware(['auth', 'admin'])->prefix('admin')->namespace('Admin')
 	Route::get('/categories/{category}/edit', 'CategoryController@edit'); // formulario edición
 	Route::post('/categories/{category}/edit', 'CategoryController@update'); // actualizar
 	Route::delete('/categories/{category}', 'CategoryController@destroy'); // form eliminar
+
+	Route::get('/orders/index', 'OrderController@index')->name('admin_order_index'); //
+	Route::get('/orders/{cartId}/view', 'OrderController@view')->name('admin_order_view'); //
 });
